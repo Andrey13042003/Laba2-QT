@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="TableWidget">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>0</y>
+      <width>781</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="error">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>200</y>
+      <width>141</width>
+      <height>87</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="max">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>560</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="med">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>560</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="min">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>560</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="namefile">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>40</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameregion">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>120</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="numbercolomn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>340</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_calculations">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>380</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вычислить данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_loaddata">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>160</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_openfile">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Открыть файл</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qlabel_colomn">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>300</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Номер колонки</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qlabel_max">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>520</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Максимум</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qlabel_median">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>520</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Медиана</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qlabel_min">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>520</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Минимум</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="qlabel_region">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>80</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Название региона</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>993</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
